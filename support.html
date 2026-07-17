@@ -182,64 +182,6 @@
             margin-top: 8px;
         }
 
-        .faq { margin-bottom: 48px; }
-
-        .faq h2 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            letter-spacing: -0.02em;
-            margin-bottom: 24px;
-            color: var(--accent);
-        }
-
-        details {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            margin-bottom: 8px;
-            transition: background 0.2s;
-        }
-
-        details:hover { background: var(--surface-hover); }
-
-        details[open] { background: var(--surface-hover); }
-
-        summary {
-            padding: 18px 24px;
-            cursor: pointer;
-            font-weight: 500;
-            font-size: 0.95rem;
-            color: var(--accent);
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            -webkit-user-select: none;
-            user-select: none;
-        }
-
-        summary::-webkit-details-marker { display: none; }
-
-        summary::after {
-            content: '+';
-            font-family: 'Space Mono', monospace;
-            font-size: 1.1rem;
-            color: var(--text-muted);
-            transition: transform 0.2s;
-        }
-
-        details[open] summary::after {
-            content: '−';
-            color: var(--accent);
-        }
-
-        details .answer {
-            padding: 0 24px 20px;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            line-height: 1.7;
-        }
-
         .footer {
             padding-top: 48px;
             border-top: 1px solid var(--border);
@@ -277,7 +219,8 @@
         <div class="nav-right">
             <a href="support.html" class="active">Support</a>
             <a href="privacy.html">Privacy</a>
-            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms</a>
+            <a href="terms.html">Terms</a>
+            <a href="guidelines.html">Guidelines</a>
         </div>
         <button class="burger" onclick="document.querySelector('.mobile-menu').classList.toggle('open'); this.classList.toggle('open')" aria-label="Menu">
             <span></span><span></span><span></span>
@@ -288,14 +231,15 @@
         <a href="index.html">Home</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy</a>
-        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms</a>
+        <a href="terms.html">Terms</a>
+        <a href="guidelines.html">Guidelines</a>
     </div>
 
     <div class="container">
 
         <h1>Support</h1>
         <p class="intro">
-            Need help with effct.? Check the FAQ below or reach out directly — we'll get back to you within 48 hours.
+            Need help with effct.? Reach out directly — we'll get back to you within 48 hours.
         </p>
 
         <div class="contact-card">
@@ -304,65 +248,13 @@
             <p>We typically respond within 48 hours.</p>
         </div>
 
-        <div class="faq">
-            <h2>Frequently Asked Questions</h2>
-
-            <details>
-                <summary>What is effct.?</summary>
-                <div class="answer">
-                    effct. is a camera app with cinematic filters organized in two collections: Eras and Moods. Eras are inspired by the distinct color profiles of different decades, while Moods are designed to evoke specific emotions and atmospheres. Both collections include a variety of filters.
-                </div>
-            </details>
-
-            <details>
-                <summary>What does effct. Pro include?</summary>
-                <div class="answer">
-                    Pro unlocks all premium filters, the ability to edit the filter on any photo in your gallery, and automatic saving to your Photo Library. Available as monthly, annual, or lifetime subscription.
-                </div>
-            </details>
-
-            <details>
-                <summary>How do I restore my purchase?</summary>
-                <div class="answer">
-                    Open effct., tap the menu, and access the subscription screen. Your purchase is tied to your Apple ID and will restore automatically. If it doesn't, make sure you're signed in with the same Apple ID you used to subscribe.
-                </div>
-            </details>
-
-            <details>
-                <summary>How do I cancel my subscription?</summary>
-                <div class="answer">
-                    Go to Settings → Apple ID → Subscriptions on your iPhone, find effct. and tap Cancel. You'll keep access until the end of your current billing period.
-                </div>
-            </details>
-
-            <details>
-                <summary>Are my photos stored on a server?</summary>
-                <div class="answer">
-                    No. effct. has no server, no accounts, and no tracking. All your photos and videos stay on your device. Nothing leaves your phone.
-                </div>
-            </details>
-
-            <details>
-                <summary>Can I change the filter on a photo after taking it?</summary>
-                <div class="answer">
-                    Yes, effct. saves your original photos without any filter baked in. You can change or remove the filter anytime from the gallery. Editing the filter on existing photos is a Pro feature.
-                </div>
-            </details>
-
-            <details>
-                <summary>What iOS version is required?</summary>
-                <div class="answer">
-                    effct. requires iOS 26 or later.
-                </div>
-            </details>
-        </div>
-
         <div class="footer">
             <span>effct.</span>
             <div>
                 <a href="support.html">Support</a>
                 <a href="privacy.html" style="margin-left:16px">Privacy</a>
-                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener" style="margin-left:16px">Terms</a>
+                <a href="terms.html" style="margin-left:16px">Terms</a>
+                <a href="guidelines.html" style="margin-left:16px">Guidelines</a>
             </div>
         </div>
     </div>
